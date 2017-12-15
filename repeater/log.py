@@ -6,7 +6,7 @@ import os
 import time
 
 #项目路径
-log_path = os.path.split(os.path.realpath(__file__))[0]
+log_path = os.path.split(os.path.realpath(__file__))[0] + '/'
 
 #获取当前日期作为文件名
 def getFiltName():
