@@ -1,2 +1,2 @@
 find ./ -name "*.pyc" | xargs rm -rf
-rm -rf ./log/*.log
+find ./ -name "*.log" | xargs rm -rf
